@@ -2,7 +2,7 @@
 
 function DISABLEcheck()
    local R = component.description()
-   if nil ~= R:find("#disabled") then
+   if not iguana.isTest() and nil ~= R:find("#disabled") then
       error("This channel is deliberately disabled.  Do not run it.", 2);
    end
 end
