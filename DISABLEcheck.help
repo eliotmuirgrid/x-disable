@@ -1,7 +1,0 @@
-{
-    "Description": "<p>So you are working on a great new interface - but it is not ready for production.  </p><p><br></p><p>How do you stop your well meaning operations staff from starting your component?</p><p><br></p><p>This library helps with this.</p><p><br></p><p>It checks the description of the component with #disabled in it and will throw an error if you are not in the editor.</p><p><br></p><p>To use it just call this function from your main function:</p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">function main(Data)\n   DISABLEcheck();\nend\n</pre><p><br></p>",
-    "Name": "DISABLEcheck",
-    "Parameters": null,
-    "ParameterTable": false,
-    "SummaryLine": "Throws error if component has #disabled in description."
-}
