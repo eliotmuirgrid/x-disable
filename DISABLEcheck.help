@@ -1,0 +1,7 @@
+{
+    "Description": "<h3>Usage</h3><pre class=\"ql-syntax\" spellcheck=\"false\">DISABLEcheck()\n</pre><h3><br></h3><h3>Notes</h3><ul><li>Checks the tags of the component for #disabled and throws an error if you are not in the editor.</li><li>To use it, call this function from the main function.</li></ul><p><br></p><h3>Returns</h3><ul><li><span style=\"color: rgb(41, 42, 46);\">This function does not return a value.</span></li></ul><p><br></p><h3>Example</h3><pre class=\"ql-syntax\" spellcheck=\"false\">function main(Data)\n&nbsp; &nbsp;DISABLEcheck()\nend\n</pre>",
+    "Name": "DISABLEcheck",
+    "Parameters": null,
+    "ParameterTable": false,
+    "SummaryLine": "Throws error if component has #disabled in component tags."
+}
